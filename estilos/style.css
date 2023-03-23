@@ -28,12 +28,20 @@ body {
 
 #Logomarca img{
     width: 4rem;
+    transition: width .5s;
 }
 
+#Logomarca img:hover{
+    width: 4.5rem;
+}
 
 #Main-navigation-menu ul{
     display: flex;
     gap: 1em;
+}
+
+#Main-navigation-menu li:hover {
+    color: aquamarine;
 }
 
 #Main-navigation-menu a{
@@ -42,7 +50,12 @@ body {
 
 #Main-navigation-menu li{
     font-size: 120%;
+    transition: width .5s;
+    transition: .5s;
 }
+
+/*Fim do Header*/
+
 
 .container {
     display: flex;
