@@ -176,6 +176,35 @@ a {
 }
 
 
+.projeto {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(78, 78, 78);
+    border-radius: 15px;
+}
+
+.descricao-projeto {
+    
+}
+
+.wrapper-icone-texto {
+    display: flex;
+    align-items: center;
+}
+
+.descricao-projeto h2{
+    font-weight: 200;
+}
+
+
+.icon img {
+    width: 50px;
+}
+
+
+
+
 /*Keyframes*/
 
 @keyframes typing {
