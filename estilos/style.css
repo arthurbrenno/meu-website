@@ -149,6 +149,27 @@ a {
 }
 
 
+/*Projetos*/
+
+.sub-container{
+    opacity: 0;
+    animation: fadeInPagina 0.75s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-title-projetos {
+    text-align: center;
+}
+
+#hero-title-projetos h1{
+    text-align: center;
+}
+
+
+
+/*Keyframes*/
+
 @keyframes typing {
     from {
         width: 0
