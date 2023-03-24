@@ -182,10 +182,16 @@ a {
     align-items: center;
     background-color: rgb(78, 78, 78);
     border-radius: 15px;
+    margin-bottom: 10px;
 }
 
-.descricao-projeto {
-    
+.status-projeto {
+    margin-right: 5px;
+}
+
+.status-projeto img{
+    width: 20px;
+    margin: 10px;
 }
 
 .wrapper-icone-texto {
@@ -194,12 +200,13 @@ a {
 }
 
 .descricao-projeto h2{
+    margin-left: 10px;
     font-weight: 200;
 }
 
-
 .icon img {
     width: 50px;
+    margin: 5px;
 }
 
 
