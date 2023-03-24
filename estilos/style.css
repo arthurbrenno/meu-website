@@ -137,6 +137,11 @@ a {
 .carrossel img {
     width: 200px;
     border-radius: 10px;
+    transition: box-shadow 0.2s;
+}
+
+.carrossel img:hover {
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.171);
 }
 
 .carrossel a {
