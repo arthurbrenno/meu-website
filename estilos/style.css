@@ -7,19 +7,24 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    
 }
 
 body {
     background-color: #141414;
     font-family: Montserrat;
-    width: 100vw;
-    height: 100vh;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .container {
     animation: fadeInPagina 0.75s;
     justify-content: center;
+    position: relative;
+}
+
+a {
+    color: white;
 }
 
 
@@ -76,7 +81,7 @@ body {
 
 /*Conteudo da index*/
 
-section.welcome {
+.welcome {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -94,20 +99,46 @@ section.welcome {
     align-items: center;
 }
 
+.hero-title-i {
+    display: block;
+    margin-top: 250px;
+}
+
 .terminal {
     overflow: hidden;
     border-right: .15em solid rgb(253, 253, 253);
     white-space: nowrap;
     margin: 0 auto;
     letter-spacing: .15em;
+    transition: color 0.7s;
     animation: 
       typing 2s steps(15, end),
       blink-caret .75s step-end infinite;
 }
 
+.terminal:hover {
+    color: rgb(255, 72, 0);
+}
+
 #titulo-I {
     margin-top: 150%;
+    font-size:large;
 }
+
+.carrossel {
+    margin-top: 2%;
+    display: flex;
+}
+
+.carrossel img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.carrossel a {
+    margin-right: 20px;
+}
+
 
 @keyframes typing {
     from {
