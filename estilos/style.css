@@ -90,6 +90,7 @@ a {
     max-width: 1200px;
     color: white;
     justify-content: center;
+    margin-bottom: 250px;
 }
 
 .hero-title {
@@ -101,7 +102,6 @@ a {
 
 .hero-title-i {
     display: block;
-    margin-top: 250px;
 }
 
 .terminal {
@@ -180,10 +180,23 @@ a {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(0, 0, 0);
     border-radius: 15px;
     margin-bottom: 10px;
+    transition: background-color 0.5s;
 }
+
+.projeto:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.171);
+
+}
+
+.projeto:hover h2{
+    color: black;
+    font-weight: 500;
+}
+
 
 .status-projeto {
     margin-right: 5px;
@@ -194,6 +207,10 @@ a {
     margin: 10px;
 }
 
+.wrapper {
+    margin-bottom: 50px;
+}
+
 .wrapper-icone-texto {
     display: flex;
     align-items: center;
@@ -201,7 +218,7 @@ a {
 
 .descricao-projeto h2{
     margin-left: 10px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .icon img {
