@@ -154,18 +154,26 @@ a {
 .sub-container{
     opacity: 0;
     animation: fadeInPagina 0.75s;
-    animation-delay: 1.5s;
+    animation-delay: .75s;
     animation-fill-mode: forwards;
 }
 
-#hero-title-projetos {
+.hero-title-III {
+    margin-top: 5%;
     text-align: center;
 }
 
-#hero-title-projetos h1{
+.hero-title-III h1{
     text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
 }
 
+.hero-title-III h2{
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 100;
+}
 
 
 /*Keyframes*/
