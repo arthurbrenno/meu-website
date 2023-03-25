@@ -23,9 +23,32 @@ body {
     position: relative;
 }
 
+
+.sub-container{
+    opacity: 0;
+    animation: fadeInPagina 0.75s;
+    animation-delay: .95s;
+    animation-fill-mode: forwards;
+}
+
+
+.wrapper {
+    margin-bottom: 50px;
+    display: block;
+}
+
 a {
     color: white;
 }
+
+.main-video-container {
+    display: block;
+}
+
+.main-video-container {
+    text-align: center;
+}
+
 
 
 /*Fim dos estilos base */
@@ -113,7 +136,7 @@ a {
     transition: color 0.7s;
     animation: 
       typing 2s steps(15, end),
-      blink-caret .75s step-end infinite;
+      blink .75s step-end infinite;
 }
 
 .terminal:hover {
@@ -132,6 +155,7 @@ a {
 .carrossel {
     margin-top: 2%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .carrossel img {
@@ -148,15 +172,18 @@ a {
     margin-right: 20px;
 }
 
+.carrossel-vertical {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+.carrossel-vertical img{
+    width: 250px;
+}
+
 
 /*Projetos*/
-
-.sub-container{
-    opacity: 0;
-    animation: fadeInPagina 0.75s;
-    animation-delay: .75s;
-    animation-fill-mode: forwards;
-}
 
 .hero-title-III {
     margin-top: 5%;
@@ -178,6 +205,7 @@ a {
 
 .projeto {
     display: flex;
+    flex-wrap: wrap;
     justify-content:space-between;
     align-items: center;
     background-color: rgb(0, 0, 0);
@@ -207,9 +235,6 @@ a {
     margin: 10px;
 }
 
-.wrapper {
-    margin-bottom: 50px;
-}
 
 .wrapper-icone-texto {
     display: flex;
@@ -240,7 +265,7 @@ a {
     }
 }
   
-@keyframes blink-caret {
+@keyframes blink {
     from, to { border-color: transparent }
     50% { border-color: rgb(255, 255, 255); }
 }
