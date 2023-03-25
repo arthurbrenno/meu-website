@@ -275,16 +275,46 @@ a {
     display: block;
     justify-content: center;
     text-align: center;
-    margin-top: 10%;
     font-family: "Press Start 2P";
 }
 
 .hero-title-IV h1{
-    
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.hero-title-IV h1:hover {
+    color: gold;
+}
+
+.hero-title-IV p{
+    margin-top: 1%;
 }
 
 .wrapper-academico {
+    margin-top: 5px;
+}
 
+.wrapper-academico img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.sub-container-academico{
+    opacity: 0;
+    animation: fadeInPagina 0.75s;
+    animation-delay: .95s;
+    animation-fill-mode: forwards;
+    margin-top: 2%;
 }
 
 
