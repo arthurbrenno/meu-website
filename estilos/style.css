@@ -316,8 +316,9 @@ a {
 
 }
 
-#buttons-academico button:focus{
+#buttons-academico button:active{
     animation: changeColorAcademico .5s;
+    animation-duration: .5s;
 }
 
 .wrapper-academico img{
@@ -362,6 +363,9 @@ a {
     border-radius: 4px;
     margin-bottom: 5%;
 }
+
+
+/*linguagens*/
 
 
 /*Keyframes*/
