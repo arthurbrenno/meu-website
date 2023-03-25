@@ -585,6 +585,9 @@ a {
 
 
 
+
+
+
 /*Jogos*/
 .hero-title-V {
     display: flex;
@@ -601,7 +604,7 @@ a {
 
 .game-video {
     overflow: hidden;
-    opacity: 50%;
+    opacity: 75%;
 }
 
 .game-title {
