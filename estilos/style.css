@@ -161,11 +161,12 @@ a {
 .carrossel img {
     width: 200px;
     border-radius: 10px;
-    transition: box-shadow 0.2s;
+    transition: box-shadow .5s, border-radius .5s;
 }
 
 .carrossel img:hover {
     box-shadow: 0 4px 30px rgba(255, 255, 255, 0.171);
+    border-radius: 30px;
 }
 
 .carrossel a {
@@ -178,8 +179,17 @@ a {
     margin-top: 2%;
 }
 
+.carrossel-vertical a {
+    margin-right: 2%;
+}
+
 .carrossel-vertical img{
     width: 250px;
+    transition: border-radius .3s;
+}
+
+.carrossel-vertical img:hover{
+    border-radius: 50px;
 }
 
 
@@ -252,6 +262,12 @@ a {
 }
 
 
+
+/**/
+
+.main-intro video{
+    width: 100%;
+}
 
 
 /*Keyframes*/
