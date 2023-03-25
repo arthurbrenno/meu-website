@@ -586,6 +586,37 @@ a {
 
 
 
+/*Jogos*/
+.hero-title-V {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    font-family: "Press Start 2P";
+}
+
+.game {
+    margin-top: 5%;
+    position: relative;
+}
+
+.game-video {
+    
+}
+
+.game-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.game-video video {
+    z-index: -1;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
 
 
 
