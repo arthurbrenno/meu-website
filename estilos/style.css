@@ -379,7 +379,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 60%;
+    margin-top: 20%;
     text-align: center;
 }
 
@@ -511,21 +511,31 @@ a {
     background-image: linear-gradient(transparent, rgba(0,0,0,.7) 90%);
 }
 
-
 .overlay-video-loja {
     position: absolute;
-    z-index: 300000;
+    z-index: -1;
     bottom: 10px;
     left: 100px;
     top: 250px;
 }
 
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to top, rgba(0,0,0,.7) 10%, transparent);
+    z-index: -1;
+}
+
 #overlay-video-loja img {
-    width: 540px;
+    width: 15%;
+    height: auto;
 }
 
 #wrapper-loja {
-    margin-top: 55%;
+    margin-top: 45%;
 }
 
 #hero-title-loja {
@@ -534,6 +544,48 @@ a {
     font-weight: 100;
     margin-left: 2%;
 }
+
+.container-loja {
+    display: block;
+    margin-top: 51.4%;
+    margin-left: 2%;
+}
+
+.sessao-ii-loja h1{
+    color: white;
+    position: relative;
+    margin-left: 2%;
+}
+
+.sessao-ii-loja {
+    margin-top: 2%;
+}
+
+.sessao-i-loja h1 {
+    color: white;
+    margin-left: 2%;
+    position: relative;
+    
+}
+
+.carrosel-loja img{
+    border-radius: 10px;
+    width: 15%;
+    height: auto;
+}
+
+.carrosel-loja-menor img{
+    border-radius: 10px;
+    width: 15%;
+    height: auto;
+}
+
+.carrossel-vertical-loja img {
+    width: 100px;
+}
+
+
+
 
 
 
