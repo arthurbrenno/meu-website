@@ -325,7 +325,6 @@ a {
     position: absolute;
     z-index: -1;
     width: 100%;
-    border-radius: 10px;
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-select: none;
@@ -596,12 +595,13 @@ a {
 }
 
 .game {
-    margin-top: 5%;
+    margin-top: 10%;
     position: relative;
 }
 
 .game-video {
-    
+    overflow: hidden;
+    opacity: 50%;
 }
 
 .game-title {
@@ -614,10 +614,18 @@ a {
 .game-video video {
     z-index: -1;
     width: 100%;
-    height: auto;
+    height: auto; /* Ajuste este valor para cortar mais ou menos na parte inferior */
     border-radius: 10px;
 }
 
+.full-width-container {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
 
 
 /*Keyframes*/
