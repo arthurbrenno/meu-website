@@ -367,6 +367,14 @@ a {
 
 /*linguagens*/
 
+.sub-container-linguagens{
+    display: block;
+    opacity: 0;
+    animation: fadeInPagina 0.75s;
+    animation-delay: .95s;
+    animation-fill-mode: forwards;
+}
+
 .table-center {
     display: flex;
     flex-wrap: wrap;
@@ -392,9 +400,32 @@ a {
     display: flex;
     flex-wrap: wrap;
     font-family: "devicon";
-    font-size: 110px;
+    font-size: 100px;
     justify-content: center;
     margin-top: 5%;
+    gap: 2%;
+}
+
+.linguagens-main-display i {
+    transition: font-size;
+    transition-duration: .5s;
+}
+
+.linguagens-main-display i:hover {
+    font-size: 120px;
+}
+
+#hero-IV-linguagens {
+    font-family: "Montserrat";
+}
+
+#hero-IV-linguagens h1 {
+    transition: color;
+    transition-duration: .5s;
+}
+
+#hero-IV-linguagens h1:hover {
+    color: bisque;
 }
 
 
