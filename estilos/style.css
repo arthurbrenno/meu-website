@@ -24,6 +24,7 @@ body {
 
 
 .sub-container{
+    /*display: block;*/
     opacity: 0;
     animation: fadeInPagina 0.75s;
     animation-delay: .95s;
@@ -49,6 +50,10 @@ a {
     margin-top: 2%;
 }
 
+.main-video-container iframe{
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.171);
+}
 
 
 /*Fim dos estilos base */
@@ -308,6 +313,7 @@ a {
     border-radius: 5px;
     font-family: "Press Start 2P";
     padding: 15px 32px;
+
 }
 
 #buttons-academico button:focus{
@@ -332,6 +338,29 @@ a {
     animation-delay: .95s;
     animation-fill-mode: forwards;
     margin-top: 2%;
+}
+
+/*videos*/
+
+#hero-titles-videos {
+    font-family: Montserrat;
+}
+
+#hero-titles-videos h1:hover{
+    color: white;
+}
+
+.videos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 8%;
+    gap: 5%;
+}
+
+.videos-container iframe {
+    border-radius: 4px;
+    margin-bottom: 5%;
 }
 
 
