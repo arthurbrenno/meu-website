@@ -367,6 +367,36 @@ a {
 
 /*linguagens*/
 
+.table-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 60%;
+    text-align: center;
+}
+
+.table-center thead tr{
+    background-color: rgb(255, 217, 0);
+    color: #141414;
+}
+
+.table-center table, th, td{
+    padding: 2px;
+    border-collapse: collapse;
+    border: 2px solid white;
+    width: 50%;
+}
+
+
+.linguagens-main-display{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "devicon";
+    font-size: 110px;
+    justify-content: center;
+    margin-top: 5%;
+}
+
 
 /*Keyframes*/
 
