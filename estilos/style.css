@@ -638,7 +638,6 @@ a {
     margin-top: 5%;
     white-space: nowrap;
     width: 100%;
-    background-color: white;
     border-radius: 20px;
 }
 .wrapper-left-video video{
@@ -663,7 +662,7 @@ a {
 .hero-title-VI h2{
     font-family: "Montserrat";
     font-weight: 100;
-    color: #141414;
+    color: #ffffff;
 }
 
 
