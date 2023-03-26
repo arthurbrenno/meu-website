@@ -71,7 +71,15 @@
                                 <button type="button">Conteudo 4</button>
                             </div>
                         </div><!--wrapper-academico-->
-
+                        <script>
+                            const buttons = document.querySelectorAll('#buttons-academico button');
+                                buttons.forEach(button => {
+                                    button.addEventListener('click', () => {
+                                        button.blur();
+                                        setTimeout(() => button.focus(), 0);
+                                    });
+                                });
+                        </script> <!-- script -->
                     </section><!--section-->
                 </div> <!-- full-width-container -->
                 
