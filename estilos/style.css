@@ -56,10 +56,6 @@ a {
     box-shadow: 0 4px 30px rgba(255, 255, 255, 0.171);
 }
 
-.full-page-video {
-    
-}
-
 
 /*Fim dos estilos base */
 
@@ -203,7 +199,7 @@ a {
 }
 
 #stranger-v-banner {
-    transition: box-shadow .3s, border-radius .3s, filter .3s;
+    transition: box-shadow .8s, border-radius .8s, filter .8s;
 }
 
 #stranger-v-banner:hover{
@@ -614,6 +610,7 @@ a {
 
 
 /*Jogos*/
+
 .hero-title-V {
     display: flex;
     flex-wrap: wrap;
