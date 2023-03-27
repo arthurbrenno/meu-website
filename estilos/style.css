@@ -201,6 +201,25 @@ a {
     border-radius: 50px;
 }
 
+#stranger-v-banner {
+    transition: box-shadow .3s, border-radius .3s, filter .3s;
+}
+
+#stranger-v-banner:hover{
+    box-shadow: 0 4px 30px rgb(255, 0, 0);
+    border-radius: 50px;
+    filter: saturate(170%)
+}
+
+#one-v-banner {
+    transition: box-shadow .3s, border-radius .3s;
+}
+
+#one-v-banner:hover{
+    box-shadow: 0 4px 30px rgba(25, 0, 255, 0.5);
+    border-radius: 50px;
+}
+
 
 /*Projetos*/
 
@@ -667,6 +686,28 @@ a {
     font-family: "Montserrat";
     font-weight: 100;
     color: #ffffff;
+}
+
+
+/*Sobre*/
+
+#section-dos-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 10%;
+}
+
+
+#div-dos-sobre {
+    background-color: rgba(17, 25, 40, 0.75);
+    backdrop-filter: blur(16px) saturate(180%);
+    border-radius: 15px;
+    padding: 2%;
+}
+
+#body-sobre {
+    background-image: url(../componentes/imagens/sobre/8bitBackground.jpg);
 }
 
 
