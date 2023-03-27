@@ -14,6 +14,7 @@ body {
     color: white;
     max-width: 1200px;
     margin: 0 auto;
+    transition: background-color .9s;
 }
 
 .container {
@@ -208,7 +209,7 @@ a {
 #stranger-v-banner:hover{
     box-shadow: 0 4px 30px rgb(255, 0, 0);
     border-radius: 50px;
-    filter: saturate(170%)
+    filter: saturate(170%);
 }
 
 #one-v-banner {
@@ -708,7 +709,83 @@ a {
 
 #body-sobre {
     background-image: url(../componentes/imagens/sobre/8bitBackground.jpg);
+    background-repeat:initial;
+    background-size: cover;
 }
+
+.circle-profile-image {
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.circle-profile-image img {
+    width: 12%;
+    height: auto;
+    transition: margin-bottom 1s, width 1s;
+}
+
+.circle-profile-image img:hover {
+    margin-bottom: 10%;
+    width: 15%;
+}
+
+#hero-title-IV-sobre {
+    display: flex;
+    margin-top: 5%;
+    background-color: rgba(17, 25, 40, 0.75);
+    backdrop-filter: blur(16px) saturate(180%);
+    border-radius: 15px;
+    padding: 3%;
+}
+
+
+
+.cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    padding: 5%;
+    transition: opacity 1s;
+}
+
+.card-text a{
+    font-size: 50%;
+}
+
+.card-hover-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(17, 25, 40, 0.932);
+    padding: 5%;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card:hover .card-hover-text {
+    display: flex;
+    opacity: 1;
+}
+
 
 
 /*Keyframes*/
