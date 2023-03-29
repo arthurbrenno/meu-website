@@ -15,6 +15,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     transition: background-color .9s;
+    overflow-x: hidden;
 }
 
 .container {
@@ -651,6 +652,7 @@ a {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+    
 }
 
 /*Canal*/
