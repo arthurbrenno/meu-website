@@ -92,7 +92,7 @@ a {
     
 }
 
-#Main-navigation-menu li:hover {
+#Main-navigation-menu a:hover {
     color: rgb(229, 255, 0);
 }
 
@@ -100,11 +100,10 @@ a {
     color: white;
 }
 
-#Main-navigation-menu li{
+#Main-navigation-menu a{
     font-size: 120%;
     transition: width .5s;
     transition: .5s;
-    
 }
 
 /*Fim do Header*/
@@ -511,9 +510,13 @@ a {
     display: flex;
 }
 
-.header-loja li:hover {
+.header-loja a {
+    transition: color 0.3s;
+}
+
+.header-loja a:hover {
     color: gray;
-    transition: 0.2s;
+    
 }
 
 .avatar img{
